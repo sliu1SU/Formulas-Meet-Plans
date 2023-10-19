@@ -1,8 +1,11 @@
 # Formulas-Meet-Plans
 a backend Express.js server
-# Please refer to API Documentation for the functionalities and url of each API in the server
+
+
+Please refer to API Documentation for the functionalities and url of each API in the server
 
 REST API
+
 Write an Express.js server that provides a REST API which allows clients to perform the tasks listed below. This assignment is specifically about API design and JavaScript fundamentals. You will not need to generate HTML, nor will you need to persist data in a database.
 
 Domain
