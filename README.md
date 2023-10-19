@@ -17,23 +17,23 @@ A plan is an ordered sequence of formulas. One example would be a sequence of tw
 
 # Interface
 ## Your service must allow clients to do the following:
-Add a new formula.
-See the inputs and outputs of a specific formula.
-List which plans contain a specific formula.
-Add a new plan.
-Append a formula to the end of a plan.
-Replace a formula anywhere in the sequence of formulas associated with a plan.
-List all the formulas contained in a plan.
-Delete a plan.
-You should follow best practices for REST design - using appropriate verbs, putting parameters in the correct parts of the HTTP request, etc. Within those constraints, there any many open questions you will have to answer for yourself, such as how to identify specific entities and what parameters you should require or allow for each request. There are often multiple right answers in API design, so pick what makes sense to you and leave comments justifying your decisions.
+Add a new formula.<br>
+See the inputs and outputs of a specific formula.<br>
+List which plans contain a specific formula.<br>
+Add a new plan.<br>
+Append a formula to the end of a plan.<br>
+Replace a formula anywhere in the sequence of formulas associated with a plan.<br>
+List all the formulas contained in a plan.<br>
+Delete a plan.<br>
+You should follow best practices for REST design - using appropriate verbs, putting parameters in the correct parts of the HTTP request, etc. Within those constraints, there any many open questions you will have to answer for yourself, such as how to identify specific entities and what parameters you should require or allow for each request. There are often multiple right answers in API design, so pick what makes sense to you and leave comments justifying your decisions.<br>
 
 # Documentation
 ## APIs are only useful if your clients can understand how to use them. In the same folder as your code, include a document (Markdown, HTML, Word, or PDF) that describes how to use your API. For each action the client can take, write the following:
-The method and path used to trigger the action.
-A sentence saying what the action does.
-What parameters the action involves. For each parameter, list:
-its name (if in the path or query)
-where it goes (path, query, or body)
-its domain (e.g. non-negative numbers, objects with particular fields, any non-empty string)
-What response codes the action could result in and what they mean in this specific context.
-What the response body will contain.
+The method and path used to trigger the action.<br>
+A sentence saying what the action does.<br>
+### What parameters the action involves. For each parameter, list:
+its name (if in the path or query)<br>
+where it goes (path, query, or body)<br>
+its domain (e.g. non-negative numbers, objects with particular fields, any non-empty string)<br>
+What response codes the action could result in and what they mean in this specific context.<br>
+What the response body will contain.<br>
